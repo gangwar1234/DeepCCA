@@ -200,7 +200,7 @@ if __name__ == '__main__':
     print("Using", torch.cuda.device_count(), "GPUs")
 
     # the path to save the final learned features
-    save_to = './new_features.gz'
+    save_to = '/content/DeepCCA/new_features_colab.gz'
 
     # the size of the new space learned by the model (number of the new features)
     #outdim_size = 30
